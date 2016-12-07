@@ -1,0 +1,22 @@
+{
+  "name": "resort-app",
+  "version": "1.0.0",
+  "description": "website for vail",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherinemarston/vail-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherinemarston/vail-app/issues"
+  },
+  "homepage": "https://github.com/catherinemarston/vail-app#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

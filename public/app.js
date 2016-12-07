@@ -8,9 +8,9 @@ $stateProvider
 // beach with 2 pages
 .state('beach', {
   url: '/beach',
-  templateUrl: './app/beach_landing.html'
+  templateUrl: './app/beach/beach_landing.html'
 })
-  .state('about', {
+  .state('beachAbout', {
     url: '/beach/about',
     templateUrl: './app/about/about.html'
   })
@@ -22,12 +22,12 @@ $stateProvider
 // mountain with 2 pages
 .state('mountain', {
   url: '/mountain',
-  templateUrl: './app/mountain_landing.html'
+  templateUrl: './app/mountain/mountain_landing.html'
 })
-  .state('mountain', {
-    url: '/mountain/about',
-    templateUrl: './app/about/about.html'
-  })
+  // .state('mountainAbout', {
+  //   url: '/mountain/about',
+  //   templateUrl: './app/about/about.html'
+  // })
 
   $urlRouterProvider
     .otherwise('/');
