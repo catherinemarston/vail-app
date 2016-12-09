@@ -4,7 +4,7 @@ angular.module('resortApp')
   $scope.isCollapsed = false;
   $scope.isCollapsedHorizontal = false;
 }]);
-.directive('navDirective', function(){
-  restrict: 'EA',
-  templateUrl: './nav.html'
-})
+// .directive('navDirective', function(){
+//   restrict: 'EA',
+//   templateUrl: './nav.html'
+// });

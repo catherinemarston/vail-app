@@ -1,8 +1,30 @@
-<nav-directive></nav-directive>
+<div ng-controller = "navCtrl">
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" ng-click="isNavCollapsed = !isNavCollapsed">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">A menu</a>
+  </div>
+  <div class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+    <ul class="nav navbar-nav">
+      <li> <a ui-sref-active="active" ui-sref="beach"></li></a>
+      <li> <a ui-sref-active="active" ui-sref="mountain"></li>
+    </ul>
+  </div>
+</nav>
 
 <!-- //main container with mountain background and mockup -->
 <div class = "main-container mountain">
   <div class = "row">
-    
+
   </div>
+</div>
+
+
 </div>

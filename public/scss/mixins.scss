@@ -44,3 +44,11 @@ $cabin: 'Cabin', sans-serif;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
+
+// navigation
+.horizontal-collapse {
+   height: 70px;
+ }
+ .navbar-collapse.in {
+   overflow-y: hidden;
+ }

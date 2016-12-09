@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:600|Montserrat|Roboto+Slab|Special+Elite|Vollkorn");
+@import url("https://fonts.googleapis.com/css?family=Cabin:600|Montserrat|Roboto+Slab|Special+Elite|Vollkorn");
+@import url("https://fonts.googleapis.com/css?family=Cabin:600|Montserrat|Roboto+Slab|Special+Elite|Vollkorn");
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.horizontal-collapse {
+  height: 70px; }
+
+.navbar-collapse.in {
+  overflow-y: hidden; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.horizontal-collapse {
+  height: 70px; }
+
+.navbar-collapse.in {
+  overflow-y: hidden; }
+
+.gate-intro {
+  width: 100%;
+  height: 50vh; }
+  .gate-intro intro-paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px; }
+
+.gate-call {
+  height: 10vh; }
+
+.gate .img-center {
+  max-height: 50vh; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.horizontal-collapse {
+  height: 70px; }
+
+.navbar-collapse.in {
+  overflow-y: hidden; }
+
+/*animation */
+/* fade in */
+/*main styles for flex */
