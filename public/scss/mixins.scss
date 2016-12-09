@@ -1,0 +1,46 @@
+
+// typography
+@import url('https://fonts.googleapis.com/css?family=Cabin:600|Montserrat|Roboto+Slab|Special+Elite|Vollkorn');
+$special-elite: 'Special Elite', cursive;
+$volk: 'Vollkorn', serif;
+$mont: 'Montserrat', sans-serif;
+$roboto: 'Roboto Slab', serif;
+$cabin: 'Cabin', sans-serif;
+
+
+// mixins
+@mixin display-flex-center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+@mixin container-image {
+  align-self: center;
+}
+
+//animation variables
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}

@@ -1,5 +1,14 @@
+@import "mixins";
+
 ,gate-intro {
   width: 100%;
   height: 50vh;
-
+  intro-paragraph {
+    font-family: $mont;
+    font-size: 36px;
+  }
+}
+.gate-call {
+  height: 10vh;
+  
 }
