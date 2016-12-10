@@ -21,15 +21,60 @@
 .navbar-collapse.in {
   overflow-y: hidden; }
 
+.grey-box {
+  background-color: #f2f2f2;
+  height: 20vh; }
+
+.image-container {
+  align-self: center;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 28vh; }
+
+.left-image {
+  background-position: 36%; }
+
+.main-intro {
+  height: 30vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .main-intro p {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-top: 6vh; }
+
+.image-wrapper {
+  height: 60vh; }
+
 .gate-intro {
-  width: 100%;
-  height: 50vh; }
-  .gate-intro intro-paragraph {
+  width: 100%; }
+  .gate-intro .intro-paragraph {
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-top: 3vh;
     font-family: "Montserrat", sans-serif;
-    font-size: 36px; }
+    font-size: 20px; }
 
 .gate-call {
   height: 10vh; }
 
-.gate .img-center {
-  max-height: 50vh; }
+.gate {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .gate .img-center {
+    max-height: 75vh; }
+
+.gate-mountain {
+  background-color: blue; }

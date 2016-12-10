@@ -1,7 +1,7 @@
 
 // typography
 @import url('https://fonts.googleapis.com/css?family=Cabin:600|Montserrat|Roboto+Slab|Special+Elite|Vollkorn');
-$special-elite: 'Special Elite', cursive;
+$special: 'Special Elite', cursive;
 $volk: 'Vollkorn', serif;
 $mont: 'Montserrat', sans-serif;
 $roboto: 'Roboto Slab', serif;
@@ -52,3 +52,47 @@ $cabin: 'Cabin', sans-serif;
  .navbar-collapse.in {
    overflow-y: hidden;
  }
+
+
+ //different box colors
+.grey-box {
+  background-color: #f2f2f2;
+  height: 20vh;
+}
+
+
+.image-container {
+    // height: 57vh;
+    align-self: center;
+    // background-size:
+    // padding-left: 11vw;
+    // margin-top: 2vh;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 28vh;
+    // background-position: 36%;
+    // img {
+    //   max-height: 57vh;
+    // }
+}
+.left-image {
+      background-position: 36%;
+}
+.right-image {
+  background-position: 50%;
+}
+
+.main-intro {
+  height: 30vh;
+  @include display-flex-center;
+  p {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-top: 6vh;
+  }
+}
+.image-wrapper {
+  height: 60vh;
+}
