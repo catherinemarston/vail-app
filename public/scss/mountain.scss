@@ -1,13 +1,64 @@
 @import "mixins";
-
 /*animation */
-
-
 /* fade in */
-
-
 /*main styles for flex */
-.main-container {
-
-
+.main-container {}
+//main-mountain styles
+.main-mountain {
+  height: 86vh;
+  background-image: url('../../images/mountain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  .beach-mockup {
+    background-image: url('../../images/mountain_main.png');
+    max-height: 54vh;
+    position: absolute;
+  }
+  h1 {
+    font-family: $roboto;
+    font-size: 36px;
+    padding-top: 10vh;
+    padding-left: 7vh;
+  }
+  h2 {
+    font-family: $roboto;
+  }
+}
+//mountain container - all images
+.mountain-container {
+    .restaurant-image {
+        background-image: url('../../images/mountain_restaurant.png');
+    }
+    .maps-image {
+        background-image: url('../../images/mountain_map.png');
+    }
+    .shopping-image {
+        background-image: url('../../images/mountain_shopping.png');
+    }
+    .deals-image {
+        background-image: url('../../images/mountain_deals.png');
+    }
+    .events-image {
+        background-image: url('../../images/mountain_events.png');
+    }
+    .activities-image {
+        background-image: url('../../images/mountain_activities.png');
+    }
+}
+.mountain-description {
+    //might need to add media query here
+    padding-top: 13vh;
+    h1 {
+        font-size: 36px;
+        font-family: $special;
+        color: #EB9971;
+        margin-left: 2vw;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 2vw;
+        font-family: $cabin;
+        color: #333;
+    }
 }
