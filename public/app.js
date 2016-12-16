@@ -1,5 +1,5 @@
-angular.module('resortApp', ['ui.router', 'ui.bootstrap']).config(function($stateProvider, $urlRouterProvider){
-
+// angular.module('resortApp', ['ui.router', 'ui.bootstrap']).config(function($stateProvider, $urlRouterProvider){
+angular.module('resortApp', ['ui.router']).config(function($stateProvider, $urlRouterProvider){
 $stateProvider
 .state('landing', {
   url: '/',

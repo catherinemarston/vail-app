@@ -35,6 +35,9 @@
 .left-image {
   background-position: 36%; }
 
+.right-image {
+  background-position: 50%; }
+
 .main-intro {
   height: 30vh;
   display: -webkit-box;
@@ -56,3 +59,51 @@
 /*animation */
 /* fade in */
 /*main styles for flex */
+.main-mountain {
+  height: 86vh;
+  background-image: url("../../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+  .main-mountain .beach-mockup {
+    background-image: url("../../images/mountain_main.png");
+    max-height: 54vh;
+    position: absolute; }
+  .main-mountain h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    padding-top: 10vh;
+    padding-left: 7vh; }
+  .main-mountain h2 {
+    font-family: "Roboto Slab", serif; }
+
+.mountain-container .restaurant-image {
+  background-image: url("../../images/mountain_restaurant.png"); }
+
+.mountain-container .maps-image {
+  background-image: url("../../images/mountain_map.png"); }
+
+.mountain-container .shopping-image {
+  background-image: url("../../images/mountain_shopping.png"); }
+
+.mountain-container .deals-image {
+  background-image: url("../../images/mountain_deals.png"); }
+
+.mountain-container .events-image {
+  background-image: url("../../images/mountain_events.png"); }
+
+.mountain-container .activities-image {
+  background-image: url("../../images/mountain_activities.png"); }
+
+.mountain-description {
+  padding-top: 13vh; }
+  .mountain-description h1 {
+    font-size: 36px;
+    font-family: "Special Elite", cursive;
+    color: #EB9971;
+    margin-left: 2vw; }
+  .mountain-description p {
+    font-size: 16px;
+    margin-left: 2vw;
+    font-family: "Cabin", sans-serif;
+    color: #333; }

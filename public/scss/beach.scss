@@ -1,77 +1,82 @@
-
 @import "mixins";
-
 .main-beach {
-  height: 86vh;
-  background-image: url('../../images/beach.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
-  .beach-mockup {
-    background-image: url('../../images/beach_main.png');
-    max-height: 54vh;
-    position: absolute;
-  }
-  h1 {
-    font-family: $roboto;
-    font-size: 36px;
-    padding-top: 10vh;
-    padding-left: 7vh;
-  }
-  h2 {
-    font-family: $roboto;
-  }
-}
+    height: 86vh;
+    background-image: url('../../images/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    .beach-mockup {
+        // background-image: url('../../images/beach_main.png');
+        position: absolute;
+        img {
+          display: none;
+        }
+        @media (min-width: 640px) {
+            img {
+              height: 60vh;
+            }
+        }
+        @media (min-width: 992px) and (max-width: 1199px) {
+            img {
+                height: 70vh;
+            }
+        }
 
+    }
+
+    h1 {
+      color: white;
+        font-family: $roboto;
+        font-size: 36px;
+        padding-top: 10vh;
+        padding-left: 7vh;
+    }
+    h2 {
+      color: white;
+        font-family: $roboto;
+    }
+}
 //intro paragraph
-
 .second-beach {
-  font-family: $cabin;
-  font-size: 24px;
+    font-family: $cabin;
+    font-size: 24px;
 }
-
-
 //decsriptions of features
 .description-container {
-  height: 60vh;
+    height: 60vh;
 }
-
-
 .description {
-  //might need to add media query here
-  padding-top: 13vh;
-  h1 {
-    font-size: 36px;
-    font-family: $special;
-    color: #EB9971;
-    margin-left: 2vw;
-  }
-  p {
-    font-size: 16px;
-    margin-left: 2vw;
-    font-family: $cabin;
-    color: #333;
-  }
+    //might need to add media query here
+    padding-top: 13vh;
+    h1 {
+        font-size: 36px;
+        font-family: $special;
+        color: #EB9971;
+        margin-left: 2vw;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 2vw;
+        font-family: $cabin;
+        color: #333;
+    }
 }
-
-
-
 //different description background images
 .restaurant-image {
-  background-image: url('../../images/beach_restaurant.png');
+    background-image: url('../../images/beach_restaurant.png');
 }
 .maps-image {
-  background-image: url('../../images/beach_map.png');
+    background-image: url('../../images/beach_map.png');
 }
 .shopping-image {
-  background-image: url('../../images/beach_shopping.png');
+    background-image: url('../../images/beach_shopping.png');
 }
 .deals-image {
-  background-image: url('../../images/beach_deals.png');
+    background-image: url('../../images/beach_deals.png');
 }
 .events-image {
-  background-image: url('../../images/beach_events.png');
+    background-image: url('../../images/beach_events.png');
 }
 .activities-image {
-  background-image: url('../../images/beach_activities.png');
+    background-image: url('../../images/beach_activities.png');
 }

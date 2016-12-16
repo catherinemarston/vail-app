@@ -35,6 +35,9 @@
 .left-image {
   background-position: 36%; }
 
+.right-image {
+  background-position: 50%; }
+
 .main-intro {
   height: 30vh;
   display: -webkit-box;
@@ -58,11 +61,22 @@
   background-image: url("../../images/beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   .main-beach .beach-mockup {
-    background-image: url("../../images/beach_main.png");
-    max-height: 54vh;
     position: absolute; }
+    @media (min-width: 640px) {
+      .main-beach .beach-mockup img {
+        height: 60vh; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .main-beach .beach-mockup img {
+        height: 70vh; } }
+  .main-beach h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    padding-top: 10vh;
+    padding-left: 7vh; }
+  .main-beach h2 {
+    font-family: "Roboto Slab", serif; }
 
 .second-beach {
   font-family: "Cabin", sans-serif;
@@ -98,3 +112,6 @@
 
 .events-image {
   background-image: url("../../images/beach_events.png"); }
+
+.activities-image {
+  background-image: url("../../images/beach_activities.png"); }

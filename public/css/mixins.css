@@ -35,6 +35,9 @@
 .left-image {
   background-position: 36%; }
 
+.right-image {
+  background-position: 50%; }
+
 .main-intro {
   height: 30vh;
   display: -webkit-box;
